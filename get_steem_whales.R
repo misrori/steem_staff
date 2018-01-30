@@ -17,3 +17,4 @@ names(adat) <- c('Rank',	'Name',	'Rep',	'Post_Count',	'Followers',	'Following',	
 
 
 write.csv(adat, '/home/mihaly/R_codes/steem_staff/whales.csv', row.names = F)
+adat <- fread('/home/mihaly/R_codes/steem_staff/whales.csv')
